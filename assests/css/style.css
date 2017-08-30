@@ -1,0 +1,41 @@
+body {
+    background-image: url("../images/backgroundImage.jpg");
+}
+
+.jumbotron {
+    margin-top: 20px;
+    background-color: #F0C56D;
+}
+
+header {
+    font-size: 80px;
+    color: #0030db;
+}
+
+p.question {
+    /* font-weight: bold; */
+    font-size: 35px;
+}
+
+div.radio {
+    font-size: 18px;
+}
+
+.footer {
+    padding: 30px 0;
+    clear: both;
+    font-size: 12px;
+    color: #050202;
+    color: #140909;
+    text-align: center;
+    background: #666;
+    border-top: 8px solid #4aaaa5;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #96DEDA, #50C9C3);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #96DEDA, #50C9C3);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
