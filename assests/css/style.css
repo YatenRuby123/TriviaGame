@@ -5,23 +5,55 @@ body {
 .jumbotron {
     margin-top: 20px;
     background-color: #F0C56D;
+    margin-bottom: 10px;
+    min-height: 100%
 }
 
-header {
+#start {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+    border-radius: 4px;
+    width: 120px;
+}
+
+#start:hover {
+    background-color: #e7e7e7;
+}
+
+#done {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+    border-radius: 4px;
+    width: 120px;
+    text-align: center;
+}
+
+#done:hover {
+    background-color: #e7e7e7;
+}
+
+h1#head {
+    font-family: 'Orbitron', sans-serif;
     font-size: 80px;
     color: #0030db;
+    /* line-height: 26.4px; */
 }
 
-p.question {
+h2 {
     /* font-weight: bold; */
     font-size: 35px;
 }
 
-div.radio {
-    font-size: 18px;
-}
+
+/* input[value=] {
+    font-size: 50px;
+} */
 
 .footer {
+    width: 100%;
+    margin-top: 280px;
     padding: 30px 0;
     clear: both;
     font-size: 12px;
